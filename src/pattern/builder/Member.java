@@ -1,12 +1,12 @@
 package pattern.builder;
 
 public class Member {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
-    private Member(String name, int age) {
-        this.name = name;
-        this.age = age;
+    private Member(MemberBuilder memberBuilder) {
+        this.name = memberBuilder.name;
+        this.age = memberBuilder.age;
     }
 
     public static MemberBuilder builder(){
@@ -28,7 +28,7 @@ public class Member {
         }
 
         public Member build(){
-            return new Member(this.name,this.age);
+            return new Member(this);
         }
     }
 
