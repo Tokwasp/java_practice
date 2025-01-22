@@ -10,11 +10,9 @@ public class CacheLocalityTest {
         // 배열 초기화
         for(int i = 0; i < ROW_COUNT; i++){
             for(int j = 0; j < COL_COUNT; j++){
+                // 짝수면 1
                 if(j % 2 == 0) {
                     arr[i][j] = 1;
-                }
-                else{
-                    arr[i][j] = 0;
                 }
             }
         }
