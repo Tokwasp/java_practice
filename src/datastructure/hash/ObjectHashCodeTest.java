@@ -1,4 +1,4 @@
-package pattern.datastructure.hash;
+package datastructure.hash;
 
 public class ObjectHashCodeTest {
     public static void main(String[] args) {

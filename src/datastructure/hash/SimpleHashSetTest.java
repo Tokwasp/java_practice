@@ -1,4 +1,4 @@
-package pattern.datastructure.hash;
+package datastructure.hash;
 
 public class SimpleHashSetTest {
     public static void main(String[] args) {

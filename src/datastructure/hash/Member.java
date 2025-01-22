@@ -1,4 +1,4 @@
-package pattern.datastructure.hash;
+package datastructure.hash;
 
 import java.util.Objects;
 
