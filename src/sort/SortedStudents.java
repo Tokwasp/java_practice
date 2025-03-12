@@ -9,7 +9,7 @@ public class SortedStudents {
     private final List<Student> students;
 
     private SortedStudents(List<Student> students) {
-        this.students = new ArrayList<>(students);
+        this.students = students;
     }
 
     public static SortedStudents of(List<Student> students){
